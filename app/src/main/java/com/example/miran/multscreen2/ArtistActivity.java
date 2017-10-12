@@ -9,6 +9,7 @@ import android.widget.Button;
 public class ArtistActivity extends AppCompatActivity {
 
     Button goHome;
+    
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
