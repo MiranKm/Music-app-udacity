@@ -22,7 +22,7 @@ public class PlayActivity extends AppCompatActivity {
         imageButtonPlay.setOnClickListener(changeIcon);
         goHome.setOnClickListener(changeIcon);
     }
-    
+
     View.OnClickListener changeIcon = new View.OnClickListener() {
         @Override
         public void onClick(View v) {
