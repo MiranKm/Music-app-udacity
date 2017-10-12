@@ -32,11 +32,7 @@ public class BuyAlbumActivity extends AppCompatActivity {
                 case R.id.buyBtn:
                     Intent intent2 = new Intent(BuyAlbumActivity.this, PaymentActivity.class);
                     startActivity(intent2);
-
             }
-
         }
     };
-
-
 }
