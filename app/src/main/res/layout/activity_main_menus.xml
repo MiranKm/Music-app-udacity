@@ -14,18 +14,18 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Main menu"
+            android:text="Main menu activity"
             android:textSize="30sp"
+
             android:layout_gravity="center"
-            android:textColor="#ffffff"
             android:padding="16dp"/>
 
         <Button
             android:id="@+id/button"
             android:layout_width="match_parent"
-            android:layout_height="100dp"
+            android:layout_height="wrap_content"
             android:layout_margin="16dp"
-            android:layout_weight="1"
+
             android:background="@drawable/mane_menus_shapes"
             android:gravity="center"
             android:text="Play"
@@ -35,9 +35,8 @@
         <Button
             android:id="@+id/artist"
             android:layout_width="match_parent"
-            android:layout_height="100dp"
+            android:layout_height="wrap_content"
             android:layout_margin="16dp"
-            android:layout_weight="1"
             android:background="@drawable/mane_menus_shapes"
             android:gravity="center"
             android:textSize="18sp"
@@ -47,9 +46,8 @@
         <Button
             android:id="@+id/payment"
             android:layout_width="match_parent"
-            android:layout_height="100dp"
+            android:layout_height="wrap_content"
             android:layout_margin="16dp"
-            android:layout_weight="1"
             android:background="@drawable/mane_menus_shapes"
             android:gravity="center"
             android:textSize="18sp"
@@ -59,14 +57,21 @@
         <Button
             android:id="@+id/buyAlbumButton"
             android:layout_width="match_parent"
-            android:layout_height="100dp"
+            android:layout_height="wrap_content"
             android:layout_margin="16dp"
-            android:layout_weight="1"
             android:background="@drawable/mane_menus_shapes"
             android:gravity="center"
             android:textSize="18sp"
             android:text="Albums"
             android:textColor="#ffffff" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/black"
+            android:text="this is the main activity that shows the menu for other acitivty, click on each one, will bring you to that acitivty"
+            android:textSize="24sp"
+            android:padding="16dp"
+            />
 
     </LinearLayout>
 
