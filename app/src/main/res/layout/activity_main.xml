@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.miran.multscreen2.MainActivity">
+
+<TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:paddingBottom="16dp"
+        android:paddingTop="16dp"
+        android:text="Main welcome screen"
+        android:textColor="#581845"
+        android:textSize="24sp"
+        android:textStyle="italic" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:fontFamily="cursive"
+        android:paddingBottom="16dp"
+        android:paddingTop="16dp"
+        android:text="WELCOME TO THE MUSIC APP"
+        android:textColor="#581845"
+        android:textSize="24sp"
+        android:textStyle="italic" />
+    <ImageButton
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#00000000"
+        android:fontFamily="serif"
+        android:gravity="center"
+        android:onClick="startApp"
+        android:paddingLeft="16dp"
+        android:paddingRight="10dp"
+        android:scaleType="fitCenter"
+        android:src="@drawable/homescreenpic"
+        android:textColor="#581845"
+        android:textSize="28sp"
+        android:textStyle="bold" />
+</LinearLayout>

@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/mane_menus_shapes"
+    android:orientation="vertical"
+    tools:context="com.example.miran.multscreen2.PlayActivity">
+
+    <!--this is a real picture from a album is here just for show! -->
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:paddingTop="16dp"
+        android:paddingLeft="16dp"
+        android:layout_height="wrap_content">
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#000"
+            android:text="Home"
+            android:id="@+id/goHome"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Now Playing"
+            android:textSize="28sp"
+            android:textColor="#ffffff"
+            android:paddingBottom="20dp"/>
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/AlbumpPic"
+        android:layout_width="wrap_content"
+        android:layout_height="350dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="28dp"
+        android:padding="16dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/front" />
+    <!--songs name goes here-->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="Songs name"
+        android:textColor="#ffffff"
+        android:textSize="24sp" />
+    <!--music timeline-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:gravity="center_horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingRight="4dp"
+            android:text="00:00"
+            android:textColor="#ffffff"
+            android:textSize="18sp" />
+
+        <SeekBar
+            android:layout_width="250dp"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="4dp"
+            android:text="00:00"
+            android:textColor="#ffffff"
+            android:textSize="18sp" />
+    </LinearLayout>
+
+    <!--play button next shufle etc...-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/mane_menus_shapes"
+        android:gravity="bottom|center">
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="100dp"
+            android:background="#00000000"
+            android:paddingRight="20dp"
+            android:src="@drawable/ic_loop_black_24dp" />
+
+        <ImageButton
+            android:layout_width="60dp"
+            android:layout_height="100dp"
+            android:background="#00000000"
+            android:src="@drawable/ic_fast_rewind_black_24dp" />
+
+        <ImageButton
+            android:id="@+id/imageButtonPlay"
+            android:layout_width="70dp"
+            android:layout_height="100dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:background="#00000000"
+            android:src="@drawable/ic_play_circle_filled_black_24dp" />
+
+        <ImageButton
+            android:layout_width="60dp"
+            android:layout_height="100dp"
+            android:background="#00000000"
+            android:src="@drawable/ic_fast_forward_black_24dp" />
+
+        <ImageButton
+            android:id="@+id/nextButton"
+            android:layout_width="wrap_content"
+            android:layout_height="100dp"
+            android:background="#00000000"
+            android:paddingLeft="20dp"
+            android:src="@drawable/ic_shuffle_black_24dp" />
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context="com.example.miran.multscreen2.PaymentActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="0dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:text="Payment"
+        android:textColor="#000"
+        android:textSize="20sp"
+        android:layout_weight="1"/>
+
+    <TextView
+        android:id="@+id/txt1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:lineSpacingExtra="2dp"
+        android:text="@string/_1_paymentOne"
+        android:textColor="#000"
+        android:textSize="16sp"
+        android:layout_weight="1" />
+    <TextView
+        android:id="@+id/txt2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="0dp"
+        android:text="@string/PaymentTwo"
+        android:textColor="#000"
+        android:textSize="16sp"
+        android:layout_weight="1"/>
+
+    <TextView
+        android:id="@+id/txt3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="0dp"
+        android:text="@string/_3_Payment3"
+        android:textColor="#000"
+        android:textSize="16sp"
+        android:layout_weight="1"/>
+
+    <TextView
+        android:id="@+id/txt4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="0dp"
+        android:text="@string/_4_payment4"
+        android:textColor="#000"
+        android:textSize="16sp"
+        android:layout_weight="1"/>
+    <Button
+        android:id="@+id/goHome"
+        android:layout_width="380dp"
+        android:layout_height="wrap_content"
+        android:background="#484848"
+        android:text="Home"
+        android:textColor="#ffffff"
+        android:layout_weight="0.82"/>
+
+</LinearLayout>
+
+

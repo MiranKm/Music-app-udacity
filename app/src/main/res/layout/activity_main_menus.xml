@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FCCDE2"
+    tools:context="com.example.miran.multscreen2.MainMenusActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Main menu"
+            android:textSize="30sp"
+            android:layout_gravity="center"
+            android:textColor="#ffffff"
+            android:padding="16dp"/>
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_margin="16dp"
+            android:layout_weight="1"
+            android:background="@drawable/mane_menus_shapes"
+            android:gravity="center"
+            android:text="Play"
+            android:textSize="18sp"
+            android:textColor="#ffffff" />
+
+        <Button
+            android:id="@+id/artist"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_margin="16dp"
+            android:layout_weight="1"
+            android:background="@drawable/mane_menus_shapes"
+            android:gravity="center"
+            android:textSize="18sp"
+            android:text="Artist"
+            android:textColor="#ffffff" />
+
+        <Button
+            android:id="@+id/payment"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_margin="16dp"
+            android:layout_weight="1"
+            android:background="@drawable/mane_menus_shapes"
+            android:gravity="center"
+            android:textSize="18sp"
+            android:text="Paymnet Information"
+            android:textColor="#ffffff" />
+
+        <Button
+            android:id="@+id/buyAlbumButton"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_margin="16dp"
+            android:layout_weight="1"
+            android:background="@drawable/mane_menus_shapes"
+            android:gravity="center"
+            android:textSize="18sp"
+            android:text="Albums"
+            android:textColor="#ffffff" />
+
+    </LinearLayout>
+
+</LinearLayout>
+

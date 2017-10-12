@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Music App</string>
+    <string name="linkin_park">artist_name</string>
+    <string name="artist_name">Linkin Park</string>
+    <string name="artistName">Linkin Park</string>
+    <string name="artistAlbumBuy">Linkin Park</string>
+    <string name="AlbumsName">One More Light</string>
+    <!--i add more then 1 string resource because  i might need to change them later on-->
+    <string name="_1_paymentOne">1.When the user taps the Android Pay button, the app requests MaskedWallet information. The Masked Wallet contains partial payment information such as billing address, shipping address, masked backing payment instrument number, and cart items.</string>
+    <string name="PaymentTwo">2.Google returns a MaskedWallet response containing the user\'s  wallet information. The app uses this information to present order review screens and other options. For example, the user might want to change their selected payment instrument or add a new shipping address.</string>
+    <string name="_3_Payment3">3.To complete the order, the app requests the FullWallet.</string>
+    <string name="_4_payment4">4.Google passes back FullWallet information, which includes the detailed Android Pay payment credentials for the transaction.</string>
+</resources>
